@@ -162,7 +162,6 @@ if count(g:zvim_bundle_groups, 'enhance') " Vim enhancement
     Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' } " Undo tree
     Plug 'tpope/vim-surround' " Surround
     Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] } " Easy align
-    Plug 'ludovicchabant/vim-gutentags' " Manage tag files
     Plug 'AndrewRadev/splitjoin.vim' " Splitjoin
     Plug 'sickill/vim-pasta' " Vim pasta
     Plug 'Keithbsmiley/investigate.vim' " Helper
@@ -608,9 +607,6 @@ if count(g:zvim_bundle_groups, 'enhance')
     " -> Easy Align
     xmap ga <Plug>(EasyAlign)
     nmap ga <Plug>(EasyAlign)
-
-    " -> Gutentags
-    let g:gutentags_cache_dir=$HOME . '/.vim/cache/ctags'
 
     " -> Splitjoin
     let g:splitjoin_split_mapping = ',s'
