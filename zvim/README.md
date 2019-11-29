@@ -12,10 +12,6 @@
 - `C-Y` Format current file
 
 
-***Golang***
-
-- `,r` Run current file
-
 ***Common***
 
 * `vimtutor`
@@ -89,7 +85,6 @@
   - [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Git diff sign
 
 - **Language Specificity**
-  - [fatih/vim-go](https://github.com/fatih/vim-go) - Golang
   - [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot) - Language Support
   - [python-mode/python-mode](https://github.com/python-mode/python-mode) -
   Python powerful mode 
@@ -107,15 +102,13 @@ git clone git@github.com:everettjf/zvim.git $HOME/.zvim; bash $HOME/.zvim/setup.
 
 ***Font***
 
- * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) run `font/setup.sh` on macOS
+ * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) you should install
+     manually
 
 
 ## Additional Configurations
 
 ```
-# Golang : command valid when you open .go file
-:GoInstallBinaries
-
 # Python : already done when setup.sh -i
 pip install flake8
 pip install yapf
