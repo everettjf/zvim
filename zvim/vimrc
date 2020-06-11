@@ -216,7 +216,7 @@ if count(g:zvim_bundle_groups, 'git') " Git
 endif
 
 if count(g:zvim_bundle_groups, 'language') " Language Specificity
-    Plug 'python-mode/python-mode', { 'for': 'python' }
+    Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
     Plug 'w0rp/ale', { 'for': 'python' }
     Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
     Plug 'sheerun/vim-polyglot' " Language Support
